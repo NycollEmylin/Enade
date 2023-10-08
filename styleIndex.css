@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Murecho&display=swap');
+body{
+    margin:0;
+    background:#c8c8c8;
+    font-family: 'Marcellus SC', serif;
+
+}
+nav{
+    border-bottom:1px black solid;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-right: 43px;
+    color: rgb(0, 112, 0);
+    font-family: 'Inknut Antiqua', serif;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.aluno {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 150px;
+}
+
+.medalha {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(6, 112, 2, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .aluno {
+        width: 25%;
+    }
+    .al{
+        display: flex;
+        flex-direction: row;
+        width: 328px;
+        flex-wrap: wrap;
+    }
+    .provasAlunos{
+        display: flex;
+            flex-direction: column;
+    }
+    .container2 {
+        width: 70% !important;
+    }
+    .logo{
+        width: 46% !important;
+    }
+    h2{
+        font-size: 20px
+    }
+    p{
+        font-size: 12px;
+    }
+}
+.container2 {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 92, 64, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.ano {
+    margin: 20px 0;
+}
+
+.ano h2 {
+    font-size: 20px;
+}
+
+.prova {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.prova span {
+    font-size: 16px;
+}
+.provasAlunos{
+    display: flex;
+    margin-top: 20px;
+}
+span{
+    font-family: 'Murecho', sans-serif;
+}
