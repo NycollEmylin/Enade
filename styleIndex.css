@@ -6,19 +6,6 @@ body{
     font-family: 'Marcellus SC', serif;
 
 }
-nav{
-    border-bottom:1px black solid;
-    display: flex;
-    justify-content: space-between;
-}
-.login{
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 18px;
-    margin-right: 43px;
-    color: rgb(0, 112, 0);
-    font-family: 'Inknut Antiqua', serif;
-}
 .container {
     width: 40%;
     margin: 0 auto;
@@ -33,7 +20,15 @@ nav{
     display: inline-block;
     width: 150px;
 }
-
+.card-header{
+    background-color: rgba(6, 112, 2, 0.5) !important;
+}
+.container{
+    border: none !important;
+}
+.container-fluid{
+    border-bottom:  1px black solid;
+}
 .medalha {
     width: 50px;
     height: 50px;
@@ -50,7 +45,7 @@ nav{
     }
 
     .aluno {
-        width: 25%;
+        width: 30%;
     }
     .al{
         display: flex;
